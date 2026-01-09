@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       {/* Left */}
-      <div className="logo">Moumita Bera</div>
+      <div className="logo">MB.</div>
 
       {/* Menu */}
       <ul className={`nav-links ${menuOpen ? "active" : ""}`}>

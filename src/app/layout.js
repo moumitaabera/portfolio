@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Moumita Bera | CSE Portfolio",
+  title: "Moumita Bera | Portfolio",
   icons: {
     icon: "/icon.ico",
   },
