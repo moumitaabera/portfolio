@@ -4,7 +4,7 @@ export default function Resume() {
       <h2>Resume</h2>
 
       <p className="resume-text">
-        You can view or download my resume below.
+        You can view my resume below.
       </p>
 
       <div className="resume-actions">
