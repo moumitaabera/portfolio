@@ -922,3 +922,44 @@ body {
     display: flex;
   }
 }
+
+
+
+
+
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #020617;
+  border-top: 1px solid #1e293b;
+}
+
+.footer p {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+main {
+  min-height: calc(100vh - 70px);
+}
+
+
+.scroll-icon {
+  margin-left: 8px;
+  animation: bounce 1.5s infinite;
+  display: inline-block;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
