@@ -65,6 +65,7 @@ p {
 .logo {
   font-size: 20px;
   font-weight: 700;
+  
 }
 
 .nav-links {
@@ -73,9 +74,6 @@ p {
   gap: 30px;
   font-size: 14px;
 }
-
-
-
 
 /* HERO */
 .hero {
@@ -117,10 +115,6 @@ p {
   border-radius: 8px;
   background: #f9fafb;
 }
-
-
-
-
 
 /* SKILLS SECTION */
 .skills-grid {
@@ -213,9 +207,6 @@ p {
   background-color: #2563eb;
   color: #ffffff;
 }
-
-
-
 
 /* Resume Section */
 .resume-section {
@@ -351,11 +342,6 @@ p {
 .contact-right button:hover {
   box-shadow: 0 0 20px #22d3ee;
 }
-
-
-
-
-
 
 /* --------- */
 
@@ -504,21 +490,6 @@ section h2 span {
   box-shadow: 0 0 20px #22d3ee;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ===== FADE + SLIDE ANIMATIONS ===== */
 
 .fade-up {
@@ -559,10 +530,6 @@ section h2 span {
     transform: translateX(0);
   }
 }
-
-
-
-
 
 @keyframes fadeUp {
   from {
@@ -645,8 +612,6 @@ section h2 span {
   z-index: 1000;
 }
 
-
-
 /* ===== FOOTER ===== */
 .footer {
   width: 100%;
@@ -661,31 +626,6 @@ section h2 span {
   font-size: 14px;
   margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * {
   box-sizing: border-box;
@@ -785,7 +725,8 @@ body {
 .logo {
   font-size: 20px;
   font-weight: bold;
-  color: #38bdf8;
+  color: #eef0f1;
+  
 }
 
 .nav-links {
@@ -876,9 +817,6 @@ body {
   }
 }
 
-
-
-
 @media (max-width: 768px) {
   .hero {
     flex-direction: column-reverse;
@@ -922,9 +860,6 @@ body {
     display: flex;
   }
 }
-
-
-
 
 
 .footer {
