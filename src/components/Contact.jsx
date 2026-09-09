@@ -1,7 +1,7 @@
 "use client";
 
 import emailjs from "emailjs-com";
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, } from "react-icons/fa";
 
 export default function Contact() {
   const sendEmail = (e) => {
@@ -36,7 +36,6 @@ export default function Contact() {
 
           <div className="contact-info">
             <p><FaEnvelope /> beramoumita036@gmail.com</p>
-            <p><FaPhone /> +91 8250578312</p>
           </div>
 
           <div className="social-icons">
