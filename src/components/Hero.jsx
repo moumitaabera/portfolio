@@ -13,7 +13,10 @@ export default function Hero() {
           Computer Science Engineering Student | Full Stack Developer
         </p>
 
-        <a className="hero-btn">See more</a>
+        <a href="#about" className="hero-btn">
+  See more <span className="scroll-icon">↓</span>
+</a>
+
       </div>
 
       {/* RIGHT SIDE PHOTO */}

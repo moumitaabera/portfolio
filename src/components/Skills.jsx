@@ -21,7 +21,7 @@ export default function Skills() {
       <h2
         style={{
           fontSize: "36px",
-          color: "#38bdf8",
+          color: "#ffffff",
           marginBottom: "50px",
           textAlign: "center",
         }}
