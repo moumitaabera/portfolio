@@ -212,6 +212,11 @@ export default function RootLayout({ children }) {
                   jobTitle: "Full Stack Developer",
                   description:
                     "Computer Science Engineering student and Full Stack Developer passionate about building modern web applications.",
+                  affiliation: {
+                    "@type": "EducationalOrganization",
+                   name: "Dr. Sudhir Chandra Sur Institute of Technology & Sports Complex",
+                   url: "https://www.surtech.edu.in/",
+                    },
                   sameAs: [
                     "https://github.com/moumitaabera",
                     "https://www.linkedin.com/in/moumitabera",
