@@ -96,6 +96,25 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className="bg-gray-950 text-gray-100">
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "Moumita Bera",
+        url: "https://moumitabera.vercel.app",
+        image: "https://moumitabera.vercel.app/profile.jpg",
+        jobTitle: "Full Stack Developer",
+        description:
+          "Computer Science Engineering student and Full Stack Developer passionate about building modern web applications.",
+        sameAs: [
+          "https://github.com/moumitaabera",
+          "https://www.linkedin.com/in/moumitabera",
+        ],
+      }),
+    }}
+  />
         {children}
       </body>
     </html>
